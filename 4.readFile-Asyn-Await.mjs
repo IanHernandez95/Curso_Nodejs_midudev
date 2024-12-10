@@ -6,7 +6,6 @@ console.log(text)
 
 console.log('Haciendo cosas mientras lee el texto')
 
-
 console.log('Leyendo el primer archivo ...')
 const secondText = await readFile('./archivo2.txt', 'utf-8')
 console.log(secondText)
